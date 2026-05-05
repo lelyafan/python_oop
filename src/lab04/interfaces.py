@@ -3,7 +3,6 @@ from typing import Any, Dict
 
 
 class Printable(ABC):
-
     @abstractmethod
     def to_string(self, verbose: bool = True) -> str:
         pass
@@ -16,7 +15,6 @@ class Comparable(ABC):
 
 
 class InterestCalculable(ABC):
-    
     @abstractmethod
     def calculate_interest(self) -> float:
         pass
@@ -33,7 +31,6 @@ class Withdrawable(ABC):
 
 
 class DepositCalculable(ABC):
-    
     @abstractmethod
     def get_profit_forecast(self, months: int) -> float:
         pass

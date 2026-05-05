@@ -1,7 +1,3 @@
-"""
-Модели банковских счетов с реализацией интерфейсов
-Лабораторная работа №4 - Интерфейсы и абстрактные классы (ABC)
-"""
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
